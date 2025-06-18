@@ -54,10 +54,9 @@
 
 **Input**: `letter` (str, 1 ta belgi)
 **Output**: `True` yoki `False`
-
 ---
 
-### 9. **f-string yordamida ism va yoshni birlashtiring**
+### 9. **
 
 | Input                                                                    | Output       |
 | ------------------------------------- | --------------------------------------- |
