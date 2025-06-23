@@ -1,5 +1,5 @@
-# 5. foydalanuvchi yoshini aniqlashs
-a = 1995
-b = 29
-total = a + b
-print(total)
+
+a = int(input("kiriting ->>"))
+b = 2024
+total = a - b
+print(abs(total))

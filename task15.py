@@ -1,13 +1,8 @@
-a = int(input("pul miqdorini kiriting"))
-
-k_100 = a // 2
-a = a % 2
-print ("100 ta da", k_100 "ta")
-k_100 = a // 3
-a = a % 3
-print ("100 ta da ", k_100"ta")
-
-k_100 = a // 5
-a = a % 5
-print  ("100 ta da ", k_100"ta")
-
+text = "{n1} soni {n2} ga bulinadi."
+n = int(input("son kiriting ->>"))
+if n % 2 == 0:
+    print(text.format(n1 = n, n2 = 2))
+if n % 3 ==0:
+    print(text.format(n1 = n,n2 = 3 ))
+if n % 5 ==0:
+    print(text.format(n1 = n,n2 = 5 ))   

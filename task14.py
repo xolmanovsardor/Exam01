@@ -1,7 +1,8 @@
-import os 
-
-fayl_n = input("fayl nomini kiriting")
-fayl_turi = os .path . splitext(fayl_n)[1].lower()
-
-r = ['.pdf','dosc' , 'txt'] 
-print(fayl_turi in r)
+fayllar_nomi = input()
+if fayllar_nomi in fayllar_nomi:
+    if fayllar_nomi.endswith(".pdf") or fayllar_nomi.endswith(".docx") or fayllar_nomi.endswith("txt"):
+        print("tug'irfayl nomi")
+    else:
+        print("error")
+else:
+    print ("error")        

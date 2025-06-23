@@ -1,4 +1,4 @@
-# 3. 3sonni urtasini topish 
+ 
 a = 4 
 b = 6
 c = 8
